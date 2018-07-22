@@ -306,8 +306,10 @@ class Voting:
                             pass
 
     async def on_raw_reaction_add(self, payload):
-
-        guild = self.bot.get_guild(payload.guild_id)
+        try:
+            guild = self.bot.get_guild(payload.guild_id)
+        except AttributeError:
+            return
         channel = guild.get_channel(payload.channel_id)
         user = guild.get_member(payload.user_id)
         if user == self.bot.user:
