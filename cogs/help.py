@@ -305,7 +305,7 @@ class HelpCommand:
                         value="Zeigt die aktuell aktiven Abstimmungen auf diesem Server an."
                     )
                     embed.add_field(
-                        name="vote start <Frage | Option1 | Option2 | ... | Option9",
+                        name="vote start <Frage | Option1 | Option2 | ... | Option9>",
                         value="Erstellt eine Neue Abstimmung auf diesem Server."
                     )
                     embed.add_field(
