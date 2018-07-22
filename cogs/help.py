@@ -321,3 +321,5 @@ class HelpCommand:
                     pass
         except KeyError:
             pass
+        except discord.errors.Forbidden:
+            pass
