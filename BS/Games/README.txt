@@ -1,0 +1,1 @@
+Diese Datei kannst du wieder löschen. Den Ordner nicht, den brauchst du für Schiffe versenken.
