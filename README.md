@@ -1,2 +1,4 @@
 # WhatZitTooya
-A Discord bot for the CodersClash competition
+A Discord bot for the CodersClash competition  
+  
+(Zu faul für README)
