@@ -314,7 +314,10 @@ class Voting:
         user = guild.get_member(payload.user_id)
         if user == self.bot.user:
             return
-        message = await channel.get_message(payload.message_id)
+        try:
+            message = await channel.get_message(payload.message_id)
+        except discord.errors.NotFound:
+            return
         partial_emoji = payload.emoji
         emoji = str(payload.emoji)
 
